@@ -72,8 +72,8 @@ class SignUp extends StatelessWidget {
                         )),
                          SizedBox( 
                           height: 100,
-                           child: TextButton(onPressed: (){
-                            Navigator.pushNamed(context, '/login_ui');
+                           child: TextButton(onPressed: (){ 
+                            Navigator.pop(context ,'/login_ui');
                            },
                            style: TextButton.styleFrom(foregroundColor: const Color.fromARGB(255, 75, 121, 238)
                            ), 
