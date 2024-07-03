@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
       '/sign_up': (BuildContext context) => const LoginUi(),
       '/login_ui': (BuildContext context) => const SignUp(),
+      
     },
     
     );
