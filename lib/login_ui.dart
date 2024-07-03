@@ -69,17 +69,19 @@ class LoginUi extends StatelessWidget {
                           ),
                         )),
                          SizedBox( 
-                          height: 100,
-                           child: TextButton(onPressed: (){
-                            Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => const SignUp()),
-  );
-                           },
-                           style: TextButton.styleFrom(foregroundColor: const Color.fromARGB(255, 75, 121, 238)
-                           ), 
-                           child: const Text('Dont have an account?SIGN UP',style: TextStyle(fontSize: 16),
-                           ),
+                           child: Padding(
+                             padding: const EdgeInsets.only(top: 32.0),
+                             child: TextButton(onPressed: (){
+                              Navigator.push(
+                                   context,
+                                       MaterialPageRoute(builder: (context) => const SignUp()),
+                                   );
+                             },
+                             style: TextButton.styleFrom(foregroundColor: const Color.fromARGB(255, 75, 121, 238)
+                             ), 
+                             child: const Text('Dont have an account?SIGN UP',style: TextStyle(fontSize: 16),
+                             ),
+                             ),
                            ),
                          ),
                         ],

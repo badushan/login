@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
       ),
       home: const LoginUi(),
-      routes: {
-      '/sign_up': (BuildContext context) => const LoginUi(),
-      '/login_ui': (BuildContext context) => const SignUp(),
+    //   routes: {
+    //   '/sign_up': (BuildContext context) => const LoginUi(),
+    //   '/login_ui': (BuildContext context) => const SignUp(),
       
-    },
+    // },
     
     );
     
